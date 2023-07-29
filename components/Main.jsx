@@ -16,7 +16,14 @@ const Main = () => {
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>
           <Image src={ProfileImg} className='rounded-xl' alt='/' />
-          <p>Call</p>
+
+          <p className="underline">Hours </p>
+          <p>Monday - Saturday</p>
+          <p>7am - 6pm</p>
+
+          <br></br>
+          <p></p>
+          <p className="underline">Call</p>
            <p>{phone}</p>
           <div className='flex items-center justify-center max-w-[330px] m-auto py-4'>
             <a

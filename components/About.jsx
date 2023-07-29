@@ -2,8 +2,6 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import ProfileImg from '../public/assets/about.png';
-import { HiOutlineChevronDoubleLeft } from 'react-icons/hi';
-
 
 const titleStyle = 'text-4xl font-bold inline border-b-4 text-[#000000] border-[#000000]'
 
@@ -37,8 +35,6 @@ const About = () => {
         </div>
       </div>
     </div>
-
-    
   );
 };
 
