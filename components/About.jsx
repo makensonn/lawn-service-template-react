@@ -14,7 +14,7 @@ const About = () => {
           <p className='py-2'></p>
           <p className='py-2 text-gray-600'>
             Welcome to our premier lawn service company with over a decade of experience in providing 
-            top-notch landscaping solutions. Since our establishment, we have been dedicated to enhancing 
+            top-notch landscaping solutions in Fort Lauderdale, Florida. Since our establishment, we have been dedicated to enhancing 
             the beauty and health of outdoor spaces for countless satisfied customers. 
           <br></br><br></br>
             Our comprehensive range of services includes flower bed design and maintenance, expert tree 
