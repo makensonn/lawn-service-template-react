@@ -1,4 +1,4 @@
-[Website](https://lulawn.vercel.app/)
+[Demo](https://lulawn.vercel.app/)
 
 ## Lu Lawn Service
 This applications is a Lawn Service Business Site in JavaScript.
