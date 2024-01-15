@@ -1,18 +1,23 @@
-import React from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
-import ProfileImg from '../public/assets/about.png';
+"use client";
 
-const titleStyle = 'text-4xl font-bold inline border-b-4 text-[#000000] border-[#000000]'
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+import MainImg from "../assets/main.png";
+
+const titleStyle = "text-4xl font-bold inline border-b-4 border-red-600";
 
 const About = () => {
   return (
-    <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
-      <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
-        <div className='col-span-2'>
-          <p className={titleStyle}><br></br><br></br>About</p>
-          <p className='py-2'></p>
-          <p className='py-2 text-gray-600'>
+    <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
+      <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
+        <div className="col-span-2">
+          <p className={titleStyle}>
+            <br></br>
+            <br></br>About
+          </p>
+          <p className="py-2"></p>
+          <p className="py-2">
             Welcome to our premier lawn service company with over a decade of experience in providing 
             top-notch landscaping solutions in Fort Lauderdale, Florida. Since our establishment, we have been dedicated to enhancing 
             the beauty and health of outdoor spaces for countless satisfied customers. 
@@ -28,10 +33,9 @@ const About = () => {
             is our priority, and we guarantee that your outdoor spaces will be the envy of the neighborhood.
           </p>
           <br></br>
-
         </div>
-        <div className='w-auto h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-          <Image src={ProfileImg} className='rounded-xl' alt='/' />
+        <div className="w-auto h-auto m-auto shadow-xl shadow-neutral-950 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
+          <Image src={MainImg} className="rounded-xl" alt="/" />
         </div>
       </div>
     </div>
